@@ -1,9 +1,8 @@
---execute this script and then shoot your gun if you die you'll have to shoot your gun again once you've equipped it.
---Services:
+--> Services
 local Players = game:GetService("Players")
 local VirtualInputManager = game:GetService("VirtualInputManager")
 
---Variables:
+--> Variables
 local LocalPlayer = Players.LocalPlayer 
 local HasShotGun = false 
 
@@ -42,7 +41,7 @@ if LocalPlayer.Character then
                 GunProperties.BSpeed = 1000000
                 GunProperties.DamageMultiplier = math.huge
 
-                --No Recoil:
+                --> No Recoil
                 GunProperties.MinRecoilPower = 0
                 GunProperties.VRecoil = {0, 0}
                 GunProperties.HRecoil = {0, 0}
@@ -53,7 +52,7 @@ if LocalPlayer.Character then
                 GunProperties.DamageMultiplier = 1000
 
 
-                --No Spread:
+                --> No Spread
                 GunProperties.MinSpread = 0
                 GunProperties.MaxSpread = 0
             end 
@@ -83,7 +82,7 @@ if LocalPlayer.Character then
                 GunProperties.BSpeed = 1000000
                 GunProperties.DamageMultiplier = math.huge
 
-                --No Recoil:
+                --> No Recoil
                 GunProperties.MinRecoilPower = 0
                 GunProperties.VRecoil = {0, 0}
                 GunProperties.HRecoil = {0, 0}
@@ -94,7 +93,7 @@ if LocalPlayer.Character then
                 GunProperties.DamageMultiplier = 1000
 
 
-                --No Spread:
+                --> No Spread
                 GunProperties.MinSpread = 0
                 GunProperties.MaxSpread = 0
             end 
@@ -123,7 +122,7 @@ if LocalPlayer.Character then
                 GunProperties.BSpeed = 1000000
                 GunProperties.DamageMultiplier = math.huge
 
-                --No Recoil:
+                --> No Recoil
                 GunProperties.MinRecoilPower = 0
                 GunProperties.VRecoil = {0, 0}
                 GunProperties.HRecoil = {0, 0}
@@ -134,7 +133,7 @@ if LocalPlayer.Character then
                 GunProperties.DamageMultiplier = 1000
 
 
-                --No Spread:
+                --> No Spread
                 GunProperties.MinSpread = 0
                 GunProperties.MaxSpread = 0
             end 
@@ -169,7 +168,7 @@ LocalPlayer.CharacterAdded:Connect(function(Character)
                 GunProperties.BSpeed = 1000000
                 GunProperties.DamageMultiplier = math.huge
 
-                --No Recoil:
+                --> No Recoil
                 GunProperties.MinRecoilPower = 0
                 GunProperties.VRecoil = {0, 0}
                 GunProperties.HRecoil = {0, 0}
@@ -180,7 +179,7 @@ LocalPlayer.CharacterAdded:Connect(function(Character)
                 GunProperties.DamageMultiplier = 1000
 
 
-                --No Spread:
+                --> No Spread
                 GunProperties.MinSpread = 0
                 GunProperties.MaxSpread = 0
             end 
@@ -209,7 +208,7 @@ LocalPlayer.CharacterAdded:Connect(function(Character)
                 GunProperties.BSpeed = 1000000
                 GunProperties.DamageMultiplier = math.huge
 
-                --No Recoil:
+                --> No Recoil
                 GunProperties.MinRecoilPower = 0
                 GunProperties.VRecoil = {0, 0}
                 GunProperties.HRecoil = {0, 0}
@@ -220,7 +219,7 @@ LocalPlayer.CharacterAdded:Connect(function(Character)
                 GunProperties.DamageMultiplier = 1000
 
 
-                --No Spread:
+                --> No Spread
                 GunProperties.MinSpread = 0
                 GunProperties.MaxSpread = 0
             end 
